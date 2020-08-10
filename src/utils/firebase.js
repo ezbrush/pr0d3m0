@@ -1,5 +1,5 @@
 var admin = require("firebase-admin");
-var config = require("../../config");
+var config = require("../../config.js");
 
 var serviceAccount = require("../../assets/firebase-secret.json");
 
