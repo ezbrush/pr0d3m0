@@ -1,0 +1,31 @@
+{
+  "name": "twilio-whatsapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "watch": "webpack --w --mode development",
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dialogflow": "^1.1.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "firebase-admin": "^9.0.0",
+    "http": "0.0.1-security",
+    "morgan": "^1.10.0",
+    "twilio": "^3.39.3",
+    "uuid": "^3.4.0"
+  },
+  "engines": {
+    "node": "12.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
